@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body, input, button {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #F5EDCE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: #89C4E1;
+
+}

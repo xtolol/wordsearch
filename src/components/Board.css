@@ -1,0 +1,26 @@
+.word-search-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.word-search-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word-search-cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.used {
+    background-color: #89C4E1;
+}
