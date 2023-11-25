@@ -1,0 +1,13 @@
+.tracker-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    row-gap: 10px;
+}
+.tracker-container p{
+    letter-spacing: 10px;
+}

@@ -1,18 +1,9 @@
 .answer-box {
-    justify-content: center;
     margin-top: 2em;
-    align-items: center;
+    display: flex;
     flex-direction: column;
-    direction: flex;
-    
-}
-
-.answer-box input {
-    width: 300px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 10px;
+    align-items: center;
+    row-gap: 20px;
 }
 
 .check-btn {
@@ -20,10 +11,14 @@
     height: 30px;
     border-radius: 5px;
     border: 1px solid black;
-    margin: 10px;
-    margin-left: 100px;
 }
 
-.label-style {
-    justify-content: center;
+/* Style for the input */
+.input-style {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
 }
